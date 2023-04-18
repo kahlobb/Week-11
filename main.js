@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', () => {
         alert(Draw);
     }
 
-    const announce = (type) => {
+    (type) => {
         switch(type){
             case PLAYERO_WON:
                 announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
